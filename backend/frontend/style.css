@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #fff5f8, #ffd6e0);
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #ff88aa;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#profile {
+  position: relative;
+}
+
+#profile img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#notif-dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 12px;
+  height: 12px;
+  background: red;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.cake-card {
+  display: inline-block;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  width: 260px;
+  margin: 15px;
+  padding-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.cake-card:hover {
+  transform: scale(1.05);
+}
+
+.cake-card img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  height: 180px;
+  object-fit: cover;
+}
+
+.order-btn {
+  background-color: #ff88aa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.order-btn:hover {
+  background-color: #ff5c8a;
+}
+
+footer {
+  background-color: #ff88aa;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
